@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(176, 176, 225);
+}
+.main {
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    background-color: rgb(176, 176, 225);
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card {
+    max-width: 350px;
+    word-wrap:inherit;
+    background-color: white;
+}
+
+h6,
+p {
+    margin: 10px;
+}
+
+.top1 {
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top2 {
+    width: 100%;
+    height: 220px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top3 {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top4 {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top5 {
+    width: 100%;
+    height: 230px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top6 {
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top7 {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top8 {
+    width: 100%;
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top9 {
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h6 {
+    font-size: 20px;
+}

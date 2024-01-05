@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    margin: 0;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    height: 100vh;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    margin: 50px 0;
+    background-color: #2a2b2ece;
+    border: rgba(58, 58, 58, 0.553) 3px solid;
+    border-radius: 40px;
+    padding: 30px 40px;
+    overflow: auto;
+}
+
+main::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+hr {
+    height: 2px;
+    width: 99%;
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 10px;
+    background-color: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    text-shadow: 0 0 10px white;
+}
+
+ol {
+    align-self: flex-start;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 13px;
+}

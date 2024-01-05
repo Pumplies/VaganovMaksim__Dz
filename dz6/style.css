@@ -1,0 +1,35 @@
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: black;
+}
+.hour {
+    border: 2px solid black;
+    width: 50px;
+    animation: 120s linear infinite rotate;
+    transform-origin: 0 0;
+
+}
+.minuts {
+    border: 1px solid black;
+    width: 70px;
+    animation: 60s linear infinite rotate;
+    transform-origin: 0 0;
+
+}

@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    height: 70px;
+    width: 700px;
+    justify-content:space-between;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E0E0;
+    width: 80px;
+    height: 70px;
+    font-size: 40px;
+}

@@ -1,0 +1,107 @@
+.main {
+  width: 1200px;
+  min-height: 700px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top_block {
+  background-color: lightgray;
+  height: 450px;
+  width: 800px;
+  padding: 0 200px;
+}
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.logo {
+  font-size: 40px;
+}
+ul {
+  list-style-type: none;
+  word-spacing: 20px;
+}
+li {
+  display: inline;
+  font-size: 20px;
+}
+
+.name {
+  width: 340px;
+  margin-right: 10px;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.subtitle {
+  font-size: 25px;
+}
+.slider {
+  background-color: darkgray;
+  width: 550px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.mainbar {
+  display: flex;
+  
+}
+.nav {
+    padding: 0 380px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: darkgray;
+    margin-left:20px ;
+}
+.topCon {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.services {
+  width: 253px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  font-size: 20px;
+}
+.twitter {
+  width: 720px;
+  background-color: lightgray;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.bottom {
+  background-color: lightgray;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.copy {
+  font-size: 20px;
+}

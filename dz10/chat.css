@@ -1,0 +1,67 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.ramzes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.ramzes img {
+    margin-left: 5px;
+}
+.chat__r {
+    background-color: lightblue;
+    width: 400px;
+    border-radius: 20px 20px 20px 0 ;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    padding: 10px;
+    margin-right: 180px;
+}
+.fishman {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.fishman img {
+    margin-right: 5px;
+}
+.chat__f {
+    background-color: lightcoral;
+    width: 400px;
+    border-radius: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    padding: 10px;
+
+    margin-left: 180px;
+    margin-right: 20px;
+}
+.name__time {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    margin-top: -15px;
+}

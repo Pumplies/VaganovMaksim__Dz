@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap');
+.main__title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #483D8B;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    color: #768799;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 700px;
+    line-height: 20px;
+}

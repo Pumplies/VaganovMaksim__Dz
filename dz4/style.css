@@ -1,0 +1,64 @@
+@font-face {
+    font-family:'Avenger';
+    src: url(img/AVENGEANCE\ HEROIC\ AVENGER\ AT.ttf);
+}
+.main {
+    background-image: url(img/bg.png);
+    height: 850px;
+    width: 1200px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+h1 {
+    font-family:'Avenger';
+    position: relative;
+    top: 200px;
+    left: 500px;
+    font-size: 90px;
+}
+/* img {
+    width: 340px;
+} */
+#hulk {
+    position: relative;
+    width: 600px;
+    bottom: -150px;
+    left: -20px;
+    z-index: 1;
+}
+#widow {
+    position: relative;
+    width: 350px;
+    bottom: -150px;
+    left: -360px;
+    z-index: 2;
+}
+#cap {
+    position: relative;
+    width: 400px;
+    bottom: 740px;
+    left: 360px;
+    z-index: 3;
+}
+#iron {
+    position: relative;
+    width: 400px;
+    bottom: 690px;
+    left: 100px;
+    z-index: 4;
+}
+#haw {
+    position: relative;
+    width: 350px;
+    bottom: 680px;
+    left: -120px;
+    z-index: 3;
+}
+#thor {
+    position: relative;
+    width: 800px;
+    bottom: 1550px;
+    left: 780px;
+    z-index: 2;
+}
