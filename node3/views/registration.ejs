@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="../style/registration.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/100" alt="Logo">
+        <h2>Регистрация</h2>
+        <form method="post">
+            <input type="text" name="login" placeholder="Имя пользователя" required>
+            <input id="pass_1" type="password" name="password" placeholder="Пароль" required>
+            <input id="pass_2" type="password" name="confirmPassword" placeholder="Подтверждение пароля" required>
+            <button class="reg" type="submit">Зарегистрироваться</button>
+        </form>
+        <a href="/auth">Уже есть аккаунт? Войти</a>
+    </div>
+    <script>
+        const pass1 = document.getElementById('pass_1')
+        const pass2 = document.getElementById('pass_2')
+        const btn = document.querySelector('.reg')
+
+        btn.addEventListener('click', () => {
+            if (pass1.value == pass2.value) {
+                console.log('Пароль верный');
+            }
+            else {
+                console.log('Пароль не верный');
+            }
+        })
+
+    </script>
+</body>
+</html>
