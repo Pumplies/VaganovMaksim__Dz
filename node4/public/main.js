@@ -6,7 +6,7 @@ const nameInput = document.getElementById("name-input");
 const messageForm = document.getElementById("message-form");
 const messageInput = document.getElementById("message-input");
 const sendSound = document.getElementById("send-sound");
-const sound = document.getElementById("sound");
+const receiveSound = document.getElementById("receive-sound");
 const typingIndicator = document.getElementById("feedback");
 let typing = false;
 let timeout;
@@ -47,6 +47,12 @@ socket.on("stop typing", () => {
 socket.on("chat-message", (data) => {
   console.log(data);
   addMessageToUI(false, data);
+  if (document.hidden) {
+    playReceiveSound();
+  }
+
+  typing = false;
+  typingIndicator.innerText = "";
 });
 
 function sendMessage() {
@@ -76,16 +82,14 @@ function addMessageToUI(isOwnMessage, data) {
         </li>
     `;
   messageContainer.innerHTML += element;
-  // playSound()
 }
 
 function playSendSound() {
   sendSound.play();
 }
-// function playSound() {
-//   sound.play();
-// }
-
+function playReceiveSound() {
+  receiveSound.play();
+}
 
 function stopTyping() {
   typing = false;
